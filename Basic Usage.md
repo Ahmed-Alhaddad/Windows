@@ -13,13 +13,13 @@ Lists the contents of a directory.
 
 ```powershell
 Get-ChildItem
-
-Set-Location (cd)
+```
+```Set-Location (cd)
 
 Changes the current working directory.
 
 Set-Location .\Documents\
-
+```
 New-Item
 
 Creates a new file or directory.
