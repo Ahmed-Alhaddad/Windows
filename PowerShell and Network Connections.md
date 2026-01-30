@@ -10,7 +10,8 @@ This guide introduces basic PowerShell and Windows networking commands used to v
 ### Get-NetIPAddress
 Retrieves IP address and configuration details for all network interfaces.
 
-```powershell
+#powershell
+```
 Get-NetIPAddress
 ```
 ````
