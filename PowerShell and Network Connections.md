@@ -12,8 +12,8 @@ Retrieves IP address and configuration details for all network interfaces.
 
 ```powershell
 Get-NetIPAddress
+```
 ````
-
 ---
 
 ## 🧰 Legacy Network Commands (CMD)
