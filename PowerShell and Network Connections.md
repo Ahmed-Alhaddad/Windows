@@ -1,14 +1,14 @@
 ````md
 # PowerShell and Network Connections
 
-PowerShell is a powerful tool for viewing and managing network settings. It allows administrators and users to check IP addresses, test connections, and interact with network resources.
+This guide introduces basic PowerShell and Windows networking commands used to view, test, and troubleshoot network connections.
 
 ---
 
-## Gathering Network Information
+## 📡 Gathering Network Information
 
 ### Get-NetIPAddress
-The `Get-NetIPAddress` cmdlet retrieves IP address information and other IP configuration details for network interfaces.
+Retrieves IP address and configuration details for all network interfaces.
 
 ```powershell
 Get-NetIPAddress
@@ -16,13 +16,17 @@ Get-NetIPAddress
 
 ---
 
-## Legacy Network Commands (CMD)
+## 🧰 Legacy Network Commands (CMD)
 
-These commands are older but still widely used and supported in PowerShell.
+These commands are older but still commonly used and fully supported in PowerShell.
 
 ### IPConfig
 
-Displays network configuration details such as IP address, subnet mask, and default gateway.
+Displays IP configuration details such as:
+
+* IP address
+* Subnet mask
+* Default gateway
 
 ```powershell
 ipconfig
@@ -32,7 +36,7 @@ ipconfig
 
 ### Netstat
 
-Displays active TCP/IP connections, listening ports, and connection states.
+Shows active TCP/IP connections, listening ports, and connection states.
 
 ```powershell
 netstat
@@ -48,11 +52,13 @@ Queries DNS to resolve domain names to IP addresses.
 nslookup example.com
 ```
 
+Useful for DNS troubleshooting.
+
 ---
 
 ### ARP
 
-Shows the ARP cache, which maps IP addresses to MAC addresses on the local network.
+Displays the ARP cache, mapping IP addresses to MAC addresses on the local network.
 
 ```powershell
 arp -a
@@ -60,7 +66,7 @@ arp -a
 
 ---
 
-## Testing Network Connections
+## 🔌 Testing Network Connections
 
 ### Test-NetConnection
 
@@ -72,19 +78,27 @@ Test-NetConnection
 
 ---
 
-## Downloading Files
+## ⬇️ Downloading Files
 
 ### Invoke-WebRequest
 
-Used to send web requests and download files from the internet.
+Used to download files or interact with web services.
 
 ```powershell
 Invoke-WebRequest -Uri "https://example.com/file.png" -OutFile "file.png"
 ```
 
-* **-Uri**: Specifies the web address
-* **-OutFile**: Specifies the output file name
+**Parameters:**
+
+* `-Uri` — Web address of the resource
+* `-OutFile` — Name of the downloaded file
 
 ---
 
+## 📘 Notes
+
+* All commands can be run directly in **PowerShell**
+* Administrative privileges may be required for some commands
+
+---
 
