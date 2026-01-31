@@ -21,7 +21,7 @@ Welcome to the documentation repository. This guide is organized into three main
 ### ⚙️ 03. Administration
 | Topic | Description |
 | :--- | :--- |
-| **[User Management](./03_Administration/User_Management.md)** | Managing Local & Active Directory Users/Groups. |
+| **[User Management](./03_Administration/User_Management_with_PowerShell.md)** | Managing Local & Active Directory Users/Groups. |
 | **[Software & Registry](./03_Administration/Silent_Install.md)** | Silent EXE installation and `reg.exe` modifications. |
 
 ---
