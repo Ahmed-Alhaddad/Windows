@@ -1,3 +1,6 @@
+#Search
+dir /S /P “NameOfThings”
+
 What it does
 
 Searches for string inside all .txt files in the current directory

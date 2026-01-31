@@ -94,6 +94,14 @@ Invoke-WebRequest -Uri "https://example.com/file.png" -OutFile "file.png"
 * `-Uri` — Web address of the resource
 * `-OutFile` — Name of the downloaded file
 
+#tnc
+Tnc IP address:port
+
+#udl file
+create notepad like file.udl to check the database
+open notepad as administrator
+and then save it as name.udl 
+open the file start chack your database
 ---
 
 ## 📘 Notes
