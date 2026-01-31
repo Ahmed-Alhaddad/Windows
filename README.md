@@ -17,15 +17,12 @@ Welcome to the documentation repository. This guide is organized into three main
 | :--- | :--- |
 | **[Network Connections](./02_Networking/Network_Connections.md)** | IP configuration, DNS (nslookup), and Web requests. |
 | **[Netsh & WiFi](./02_Networking/netsh.md)** | Generating WLAN reports and legacy shell commands. |
-| **[TNC](./02_Networking/Connectivity_Testing.md)** | Port scanning and ping testing using `Test-NetConnection`. |
-| **[Database (UDL)](./02_Networking/Database_Utilities.md)** | Using .udl files to test database strings. |
 
 ### ⚙️ 03. Administration
 | Topic | Description |
 | :--- | :--- |
 | **[User Management](./03_Administration/User_Management.md)** | Managing Local & Active Directory Users/Groups. |
 | **[Software & Registry](./03_Administration/Silent_Install.md)** | Silent EXE installation and `reg.exe` modifications. |
-| **[Processes & Services](./03_Administration/Process_Management.md)** | Managing running tasks and system services. |
 
 ---
 *Last updated: 2026*
