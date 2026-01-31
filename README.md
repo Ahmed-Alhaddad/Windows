@@ -15,7 +15,7 @@ Welcome to the documentation repository. This guide is organized into three main
 ### 🌐 02. Networking
 | Topic | Description |
 | :--- | :--- |
-| **[Network Connections](./02_Networking/Network_Connections.md)** | IP configuration, DNS (nslookup), and Web requests. |
+| **[Network Connections](./02_Networking/PowerShell_and_Network_Connections.md)** | IP configuration, DNS (nslookup), and Web requests. |
 | **[Netsh & WiFi](./02_Networking/netsh.md)** | Generating WLAN reports and legacy shell commands. |
 
 ### ⚙️ 03. Administration
