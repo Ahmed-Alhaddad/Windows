@@ -191,5 +191,6 @@ Remove-ADGroup "Students"
 ```
 
 ---
+### Run as administrator using cmd
 
-
+runas /user:Administrator cmd
