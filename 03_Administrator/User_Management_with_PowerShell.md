@@ -194,3 +194,10 @@ Remove-ADGroup "Students"
 ### Run as administrator using cmd
 
 runas /user:Administrator cmd
+
+### Windows CMD command used to change the current drive and directory
+
+---
+
+C:\Users\User> cd /d D:/
+D:\>
